@@ -12,6 +12,11 @@
     "@aws-cdk/aws-ecs-patterns:removeDefaultDesiredCount": true,
     "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
     "@aws-cdk/aws-efs:defaultEncryptionAtRest": true,
-    "@aws-cdk/aws-lambda:recognizeVersionProps": true
+    "@aws-cdk/aws-lambda:recognizeVersionProps": true,
+    "basename": "cdk-codepipeline-github-lambda",
+    "repository": "blog",
+    "owner": "suzukiken",
+    "branch": "master",
+    "github_connection_codestararn_secretname": "codepipeline-github-connections-suzukiken"
   }
 }
