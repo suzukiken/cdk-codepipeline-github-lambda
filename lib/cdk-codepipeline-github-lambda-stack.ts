@@ -105,6 +105,7 @@ export class CdkCodepipelineGithubLambdaStack extends cdk.Stack {
     })
 
     const pipeline = new codepipeline.Pipeline(this, 'Pipeline', {
+      crossAccountKeys: false,
       pipelineName: basename + '-pipeline',
       stages: [
         {
